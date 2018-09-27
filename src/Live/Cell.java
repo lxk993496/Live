@@ -6,6 +6,9 @@ public class Cell {
 	public int col;
 	public int m;
 	DrawMap drawMap =new DrawMap();
+	Cell(){
+		
+	}
 	public void reproduction() {	
 		for(int i=1;i<DrawMap.number+1;i++) {
 			for(int j=1;j<DrawMap.number+1;j++) {
